@@ -16,3 +16,6 @@ because initially we were tracking data/ folder from git so now we remove it for
 12.got commit and git push
 13. now make changes in my_code.py to append a new row in data, check changes vai 'dvc status'
 14.again --- "dvc commit " then 'dvc push'
+15.then git add -commit -push (wer are saving v2 of our data at this point)
+16.chekc dvc and git status
+17.now repeat step 10 to 12 for v3 of data
