@@ -7,4 +7,10 @@
 7.Now we do "dvc remote add -d myremote S3"
 8.Next 'dvc add data/'  #keep track of every change
 (to tell to keep track of specific file so dvc add data/path)
+9.Next 'dvc add data/'
+now it will ask to do:("git rm -r --cached 'data'" and "git commit -m "stop tracking data"")
+because initially we were tracking data/ folder from git so now we remove it for DVC to handle.
+10.again we do "dvc add data/" (create data.dvc ) the "git add .gitignore data.dvc"
 
+11."dvc commit" and then "dvc push"
+12.got commit and git push
