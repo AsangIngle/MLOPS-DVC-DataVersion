@@ -14,3 +14,5 @@ because initially we were tracking data/ folder from git so now we remove it for
 
 11."dvc commit" and then "dvc push"
 12.got commit and git push
+13. now make changes in my_code.py to append a new row in data, check changes vai 'dvc status'
+14.again --- "dvc commit " then 'dvc push'
